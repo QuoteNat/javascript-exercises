@@ -1,4 +1,5 @@
-const convertToCelsius = function() {
+const convertToCelsius = function(fahrenheit) {
+  return parseFloat((5/9 * (fahrenheit - 32)).toFixed(1));
 };
 
 const convertToFahrenheit = function() {
